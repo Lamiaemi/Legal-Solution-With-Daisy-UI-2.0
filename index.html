@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="images/gavel.svg" type="image/x-icon">
+    <!-- Daisy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>We Provide Effective Legal Solutions</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#B68C5A',
+                    },
+                    fontFamily: {
+                        garamond: ['EB Garamond', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Override Only xs Breakpoint */
+        @media (min-width: 400px) {
+            .xs\:flex {
+                display: flex !important;
+            }
+            .xs\:hidden {
+                display: none !important;
+            }
+    
+        }
+    
+        /* Default Tailwind breakpoints will remain the same */
+    </style>
+
+</head>
+<body class="font-garamond">
+    <!--navbar section starts -->
+    <header class="md:w-4/5 mx-auto">
+        <!-- Navbar section starts -->
+        <div class="navbar bg-base-100 mt-12">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm text-base font-sans dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Cases</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact Us</a></li>
+                        <li><a class="btn btn-outline bg-primary text-white border-none glass text-xl font-sans font-semibold xs:hidden">Free Consultation</a></li>
+                    </ul>
+                </div>
+                <a class="inline-flex font-extrabold text-3xl"><img src="images/gavel.svg" alt="">Justice</a>
+            </div>
+            <div class="breadcrumbs navbar-center hidden lg:flex text-base text-[#707070] font-sans">
+                <ul class="px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Cases</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end hidden xs:flex">
+                <a class="btn btn-outline bg-primary text-white border-none glass text-xl font-sans font-semibold">Free Consultation</a>
+            </div>
+        </div>
+        <!-- banner section starts -->
+        <div class="hero rounded-lg h-[550px] my-14"
+            style="background-image: url(images/banner.png);">
+            <div class="hero-overlay bg-opacity-60 rounded-lg"></div>
+            <div class="hero-content text-neutral-content text-center">
+                <div class="max-w-2xl">
+                    <h1 class="mb-5 text-5xl md:text-7xl font-extrabold text-white">We Provide Effective Legal Solutions</h1>
+                    <p class="mb-5 text-base text-[#E7E7E7] font-sans">
+                        We are committed to delivering practical and tailored legal solutions to meet your unique needs. With extensive
+                        expertise across various legal fields, we strive to resolve complex challenges efficiently and effectively. Whether it's
+                        corporate matters, personal disputes, or regulatory compliance, our approach is designed to provide reliable guidance
+                        and representation. Trust us to protect your interests and help you navigate the legal landscape with confidence.
+                    </p>
+                    <div class="flex gap-8">
+                        <input type="text" placeholder="Search your services" class="input w-full" />
+                        <button class="btn btn-outline bg-primary text-white border-none glass text-xl font-sans font-semibold px-8">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main starts -->
+     <main class="md:w-4/5 mx-auto">
+        <!-- legal area section -->
+         <section class="my-16">
+            <div class="text-center max-w-2xl mx-auto">
+                <h1 class="mb-5 text-4xl font-extrabold ">The Legal Practice Area</h1>
+                <p class="mb-5 text-base text-[#707070] font-sans">
+                    Explore diverse legal practice areas, including corporate law, family disputes, criminal defense, regulatory compliance,
+                    and personal injury solutions.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-16">
+                <!-- card 1 -->
+                <div class="card bg-base-100 hover:shadow-inner rounded-none border-[1px] border-[#E7E7E7]">
+                    <figure class="px-10 pt-10">
+                        <img src="images/business.png" alt="gavel icon"
+                            class="" />
+                    </figure>
+                    <div class="card-body px-16 items-center text-center">
+                        <h2 class="mb-5 card-title text-3xl font-extrabold">Corporate Law</h2>
+                        <p class="mb-5 text-base text-[#707070] font-sans">Corporate Law "Expert guidance in business formation, compliance, and corporate governance to protect your company's
+                        interests"</p>
+                        <div class="card-actions">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#B68C5A" class="size-8">
+                                <path fill-rule="evenodd"
+                                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card bg-base-100 hover:shadow-inner rounded-none border-[1px] border-[#E7E7E7]">
+                    <figure class="px-10 pt-10">
+                        <img src="images/divorce.png" alt="gavel icon" class="" />
+                    </figure>
+                    <div class="card-body px-16 items-center text-center">
+                        <h2 class="mb-5 card-title text-3xl font-extrabold">Family Law</h2>
+                        <p class="mb-5 text-base text-[#707070] font-sans">
+                            Family Law "Handling divorces, child custody, adoption, prenuptial agreements, and domestic partnerships with care and
+                            professional expertise"
+                        </p>
+                        <div class="card-actions">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#B68C5A" class="size-8">
+                                <path fill-rule="evenodd"
+                                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card bg-base-100 hover:shadow-inner rounded-none border-[1px] border-[#E7E7E7]">
+                    <figure class="px-10 pt-10">
+                        <img src="images/criminal.png" alt="gavel icon" class="" />
+                    </figure>
+                    <div class="card-body px-16 items-center text-center">
+                        <h2 class="mb-5 card-title text-3xl font-extrabold">Criminal Defense</h2>
+                        <p class="mb-5 text-base text-[#707070] font-sans">
+                            Criminal Defense "Providing aggressive defense for misdemeanors, felonies, DUI cases, and federal crimes with proven
+                            track record of successful outcomes"
+                        </p>
+                        <div class="card-actions">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#B68C5A" class="size-8">
+                                <path fill-rule="evenodd"
+                                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card bg-base-100 hover:shadow-inner rounded-none border-[1px] border-[#E7E7E7]">
+                    <figure class="px-10 pt-10">
+                        <img src="images/education.png" alt="gavel icon" class="" />
+                    </figure>
+                    <div class="card-body px-16 items-center text-center">
+                        <h2 class="mb-5 card-title text-3xl font-extrabold">Education Law</h2>
+                        <p class="mb-5 text-base text-[#707070] font-sans">
+                            Advocating for students, parents, and institutions on matters of educational rights, policies, and compliance.
+                        </p>
+                        <div class="card-actions">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#B68C5A" class="size-8">
+                                <path fill-rule="evenodd"
+                                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div class="card bg-base-100 hover:shadow-inner rounded-none border-[1px] border-[#E7E7E7]">
+                    <figure class="px-10 pt-10">
+                        <img src="images/tax.png" alt="gavel icon" class="" />
+                    </figure>
+                    <div class="card-body px-16 items-center text-center">
+                        <h2 class="mb-5 card-title text-3xl font-extrabold">Tax Law</h2>
+                        <p class="mb-5 text-base text-[#707070] font-sans">
+                            Expert assistance with tax compliance, disputes, and planning to safeguard your financial interests and minimize
+                            liabilities.
+                        </p>
+                        <div class="card-actions">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#B68C5A" class="size-8">
+                                <path fill-rule="evenodd"
+                                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div class="card bg-base-100 hover:shadow-inner rounded-none border-[1px] border-[#E7E7E7]">
+                    <figure class="px-10 pt-10">
+                        <img src="images/child.png" alt="gavel icon" class="" />
+                    </figure>
+                    <div class="card-body px-16 items-center text-center">
+                        <h2 class="mb-5 card-title text-3xl font-extrabold">Child Support</h2>
+                        <p class="mb-5 text-base text-[#707070] font-sans">
+                            Providing legal guidance to ensure fair child support arrangements, protecting the best interests of children and
+                            families.
+                        </p>
+                        <div class="card-actions">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#B68C5A" class="size-8">
+                                <path fill-rule="evenodd"
+                                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- review section -->
+         <section class="my-16">
+            <!-- text content -->
+            <div class="text-center max-w-2xl mx-auto">
+                <h1 class="mb-5 text-4xl font-extrabold ">What Our Client Say</h1>
+                <p class="mb-5 text-base text-[#707070] font-sans">
+                    Discover why our clients trust us with their legal needs. Read their testimonials to see how we’ve delivered exceptional
+                    results, personalized support, and reliable solutions in their most critical moments. Your satisfaction is our greatest
+                    achievement.
+                </p>
+            </div>
+            <!-- carousel section-->
+            <div class="carousel w-full my-16 h-[500px]">
+                <!-- slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <div class="hero "
+                        style="background-image: url(images/banner.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-neutral-content text-center">
+                            <div class="max-w-md">
+                                <!-- avatar -->
+                                <div class="avatar">
+                                    <div class="w-24 rounded-full">
+                                        <img src="images/user.png" />
+                                    </div>
+                                </div>
+                                <h1 class="mb-5 text-2xl font-extrabold text-white">Emiliya Reif</h1>
+                                <h4 class="mb-5 text-base text-white font-sans">Dancer</h4>
+                                <p class="mb-5 text-base text-[#F3F3F3] font-sans">
+                                    The team was incredibly professional and supportive throughout my case. They guided me every step of the way, and I
+                                    couldn’t be happier with the results!
+                                </p>
+                                <!-- pagination -->
+                                <div class="flex w-full justify-center py-2">
+                                    <a href="#slide1" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFFFFF" class="size-10">
+                                            <path fill-rule="evenodd" d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="#slide2" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#707070" class="size-10">
+                                            <path fill-rule="evenodd" d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="#slide3" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#707070" class="size-10">
+                                            <path fill-rule="evenodd" d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="#slide4" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#707070" class="size-10">
+                                            <path fill-rule="evenodd" d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- navigation -->
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="hero " style="background-image: url(images/banner.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-neutral-content text-center">
+                            <div class="max-w-md">
+                                <!-- avatar -->
+                                <div class="avatar">
+                                    <div class="w-24 rounded-full">
+                                        <img src="images/user.png" />
+                                    </div>
+                                </div>
+                                <h1 class="mb-5 text-2xl font-extrabold text-white">Michael B</h1>
+                                <h4 class="mb-5 text-base text-white font-sans">Billionier</h4>
+                                <p class="mb-5 text-base text-[#F3F3F3] font-sans">
+                                    They resolved my legal matter faster than I expected. Their knowledge and professionalism were evident throughout the
+                                    entire process.
+                                </p>
+                                <!-- pagination -->
+                                <div class="flex w-full justify-center py-2">
+                                    <a href="#slide1" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#707070" class="size-10">
+                                            <path fill-rule="evenodd"
+                                                d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="#slide2" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff" class="size-10">
+                                            <path fill-rule="evenodd"
+                                                d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="#slide3" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#707070" class="size-10">
+                                            <path fill-rule="evenodd"
+                                                d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="#slide4" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#707070" class="size-10">
+                                            <path fill-rule="evenodd"
+                                                d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- navigation -->
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="hero " style="background-image: url(images/banner.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-neutral-content text-center">
+                            <div class="max-w-md">
+                                <!-- avatar -->
+                                <div class="avatar">
+                                    <div class="w-24 rounded-full">
+                                        <img src="images/user.png" />
+                                    </div>
+                                </div>
+                                <h1 class="mb-5 text-2xl font-extrabold text-white">Emily T</h1>
+                                <h4 class="mb-5 text-base text-white font-sans">Dentist</h4>
+                                <p class="mb-5 text-base text-[#F3F3F3] font-sans">
+                                    Their attention to detail and dedication to my case were outstanding. I highly recommend their services for anyone in
+                                    need of reliable legal help.
+                                </p>
+                                <!-- pagination -->
+                                <div class="flex w-full justify-center py-2">
+                                    <a href="#slide1" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#707070" class="size-10">
+                                            <path fill-rule="evenodd"
+                                                d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="#slide2" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#707070" class="size-10">
+                                            <path fill-rule="evenodd"
+                                                d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="#slide3" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff" class="size-10">
+                                            <path fill-rule="evenodd"
+                                                d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="#slide4" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#707070" class="size-10">
+                                            <path fill-rule="evenodd"
+                                                d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- navigation -->
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 4 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="hero " style="background-image: url(images/banner.png);">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-neutral-content text-center">
+                            <div class="max-w-md">
+                                <!-- avatar -->
+                                <div class="avatar">
+                                    <div class="w-24 rounded-full">
+                                        <img src="images/user.png" />
+                                    </div>
+                                </div>
+                                <h1 class="mb-5 text-2xl font-extrabold text-white">Sarah M</h1>
+                                <h4 class="mb-5 text-base text-white font-sans">Doctor</h4>
+                                <p class="mb-5 text-base text-[#F3F3F3] font-sans">
+                                    They handled my legal issues with expertise and care. Their personalized approach made all the difference. I felt truly
+                                    heard and supported.
+                                </p>
+                                <!-- pagination -->
+                                <div class="flex w-full justify-center py-2">
+                                    <a href="#slide1" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#707070" class="size-10">
+                                            <path fill-rule="evenodd"
+                                                d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="#slide2" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#707070" class="size-10">
+                                            <path fill-rule="evenodd"
+                                                d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="#slide3" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#707070" class="size-10">
+                                            <path fill-rule="evenodd"
+                                                d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="#slide4" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff" class="size-10">
+                                            <path fill-rule="evenodd"
+                                                d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- FAQ section -->
+        <section class="my-16"> 
+        <!-- text content -->
+        <div class="text-center max-w-2xl mx-auto">
+            <h1 class="mb-5 text-4xl font-extrabold ">Frequently Asked Any Questions</h1>
+            <p class="mb-5 text-base text-[#707070] font-sans">
+                Find answers to the most common questions about our services, processes, and policies. We’re here to provide
+                clarity and
+                help you make informed decisions. If you don’t see your question here, feel free to contact us directly!
+            </p>
+        </div>
+        <!-- flex container -->
+        <div class="hero my-16">
+            <div class="hero-content md:w-full flex-col lg:flex-row-reverse justify-between">
+                <img src="images/faq.png"
+                    class="w-3/4 sm:w-6/12 max-w-md mx-auto" />
+                <div class="sm:w-6/12">
+                    <div class="collapse collapse-plus bg-base-200 mb-2 rounded-lg">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">Q: What types of legal services do you provide?</div>
+                        <div class="collapse-content">
+                            <p>We offer services in areas like family law, tax law, corporate law, education law, and more.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 mb-2 rounded-lg">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">Q: How long does it take to resolve a legal case?</div>
+                        <div class="collapse-content">
+                            <p>The duration depends on the complexity of the case. We’ll provide an estimated timeline during your consultation.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 mb-2 rounded-lg">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">Q: How can I schedule a consultation?</div>
+                        <div class="collapse-content">
+                            <p>You can schedule a consultation by contacting us via phone, email, or filling out the form on our website.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 mb-2 rounded-lg">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">Q: What are your consultation fees?</div>
+                        <div class="collapse-content">
+                            <p>Our consultation fees vary based on the type of legal service. Contact us for detailed information on pricing.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 mb-2 rounded-lg">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">Q: Do you handle cases outside your local area?</div>
+                        <div class="collapse-content">
+                            <p>Yes, we handle cases in multiple locations and can offer virtual consultations for clients unable to meet in person.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 rounded-lg">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">Q: Will I have a dedicated lawyer for my case?</div>
+                        <div class="collapse-content">
+                            <p>Absolutely. We assign a dedicated lawyer to each case, ensuring personalized attention and effective representation.</p>
+                        </div>
+                    </div>
+                    <!-- <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">Q: How do you ensure client confidentiality?</div>
+                        <div class="collapse-content">
+                            <p>We strictly follow all legal confidentiality laws and maintain secure communication to protect your information.</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- Contact Us section -->
+        <section class="my-16">
+            <!-- text content -->
+            <div class="text-center max-w-2xl mx-auto">
+                <h1 class="mb-5 text-4xl font-extrabold ">Contact With Us</h1>
+                <p class="mb-5 text-base text-[#707070] font-sans">
+                    Have questions or need legal assistance? Get in touch with us today! Our team is ready to provide expert guidance and
+                    support. Reach out via phone, email, or our online form, and we’ll respond promptly to address your needs.
+                </p>
+            </div>
+            <div class="grid w-4/5 mx-auto grid-cols-1 lg:grid-cols-2 mb-7 gap-8 justify-center my-16">
+                <div class="grid flex-grow">
+                    <div class="grid grid-cols-2">
+                        <!-- card 1 -->
+                        <div class="card bg-[#F3F3F3] rounded-none border-[1px]">
+                            <figure class="px-10 pt-10">
+                                <img src="images/address.png" alt="drop"
+                                    class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">Address</h2>
+                                <p>
+                                    A108 Adam Street,<br>
+                                    New York, NY 535022
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="card bg-[#F3F3F3] rounded-none border-[1px]">
+                            <figure class="px-10 pt-10">
+                                <img src="images/call.png" alt="drop" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">Call Us</h2>
+                                <p>
+                                    +88 01750 00 00 00 <br>
+                                    +88 01750 00 00 00
+                                </p>
+                        
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="card bg-[#F3F3F3] rounded-none border-[1px]">
+                            <figure class="px-10 pt-10">
+                                <img src="images/email.png" alt="drop" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">Email Us</h2>
+                                <p>
+                                    samiya@gmail.com,<br>
+                                    lamiya@gmail.com
+                                </p>
+                        
+                            </div>
+                        </div>
+                        <!-- card 4 -->
+                        <div class="card bg-[#F3F3F3] rounded-none border-[1px]">
+                            <figure class="px-10 pt-10">
+                                <img src="images/time.png" alt="drop" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">Working Hours</h2>
+                                <p>
+                                    Mon-Fri: 9AM to 5PM <br>
+                                    Sunday: 9AM to 1 PM
+                                </p>
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="divider lg:divider-horizontal">OR</div> -->
+                <div class="grid flex-grow">
+                    <div class="card w-full">
+                        <form class="card-body p-0">
+                            <div class="form-control ">
+                                <input type="text" placeholder="Your Name" class="input text-[#707070] bg-[#F3F3F3] text-base font-sans mb-7" required />
+                            </div>
+                            <div class="form-control ">
+                                <input type="email" placeholder="Your Email" class="input text-[#707070] bg-[#F3F3F3] text-base font-sans mb-7" required />
+                            </div>
+                            <div class="form-control ">
+                                <input type="text" placeholder="Subject" class="input text-[#707070] bg-[#F3F3F3] text-base font-sans mb-7"required />
+                            </div>
+                            <textarea class="textarea  text-[#707070] bg-[#F3F3F3] text-base font-sans h-40" placeholder="Your Message"></textarea>
+                            <div class="form-control mt-6 ">
+                                <button class="btn btn-outline text-white bg-primary font-sans text-xl">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+     </main>
+     <!-- footer section -->
+    <footer class="footer bg-[#111111] text-base-content p-10">
+        <nav>
+            <a class="inline-flex font-extrabold text-3xl text-white"><img src="images/gavel.svg" alt="">Justice</a>
+            <p class="w-56 font-sans text-base text-[#CFCFCF]">
+                Providing trusted legal services with a commitment to excellence and client satisfaction. Contact us for personalized
+                solutions and reliable representation. Follow us on social media for updates and insights.
+            </p>
+        </nav>
+        <nav class="text-[#CFCFCF] font-sans text-base">
+            <h6 class="font-extrabold text-2xl text-white font-garamond">Usefull Link</h6>
+            <a class="link link-hover">Homes</a>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Cases</a>
+            <a class="link link-hover">Blog</a>
+            <a class="link link-hover">Contact Us</a>
+        </nav>
+        <nav class="text-[#CFCFCF] font-sans text-base">
+            <h6 class="font-extrabold text-2xl text-white font-garamond">Contact Now</h6>
+            <a class="link link-hover">
+                555 4th 5t NW, Washington <br>
+                DC 20530, United States
+            </a>
+            <a class="link link-hover">
+                +88 01750 000 000 <br>
+                +88 01750 000 00
+            </a>
+            <a class="link link-hover">
+                samiya@gmail.com <br>
+                lamiya@gmail.com
+            </a>
+        </nav>
+        <form>
+            <h6 class="font-extrabold text-2xl text-white">Subscribe</h6>
+            <fieldset class="form-control w-80">
+                <label class="label">
+                    <span class="label-text text-[#CFCFCF] font-sans text-base">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</span>
+                </label>
+                <div class="join">
+                    <input type="text" placeholder="Email Address" class="input input-bordered join-item" />
+                    <button class="btn bg-primary join-item border-none text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            class="size-6 -rotate-45">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+                        </svg>
+                    </button>
+                </div>
+            </fieldset>
+        </form>
+    </footer>
+    <section class="footer footer-center bg-[#111111] text-base-content p-4 text-[#CFCFCF]">
+        <aside>
+            <p>Copyright © 2025 - All right reserved by Samiya Islam</p>
+        </aside>
+    </section>
+</body>
+</html>
+
+
+
